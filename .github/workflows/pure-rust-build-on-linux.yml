@@ -1,5 +1,6 @@
 name: Pure Rust project build on Linux
 on:
+  workflow_dispatch: {}
   push:
     branches:
       - main
